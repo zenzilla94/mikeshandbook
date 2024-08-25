@@ -1,0 +1,34 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Mike's Handbook
+theme: PaperMod
+contentDir: content/posts
+params:
+  homeInfoParams:
+    Title: 'Hey, I’m Mike 👋'
+    Content: >
+      I believe in two guiding principles:
+
+      1. The latest technology available today offers incredible opportunities.
+
+      2. The most effective way to deepen your knowledge is by teaching others.
+
+
+      On this site, I'll be sharing detailed tutorials and insights on the software and tools I use, helping you harness the full potential of today's tech landscape.
+
+  socialIcons:
+    - name: github
+      url: https://github.com/zenzilla94
+  mainSections:
+    - posts
+    - blog
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: posts
+      name: Blog
+      url: /posts/
+      weight: 20
