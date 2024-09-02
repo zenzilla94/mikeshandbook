@@ -7,14 +7,9 @@ params:
   homeInfoParams:
     Title: 'Hey, I’m Mike 👋'
     Content: >
-      I believe in two guiding principles:
+      I am currently learning about Linux, self-hosting, and software development.
 
-      1. The latest technology available today offers incredible opportunities.
-
-      2. The most effective way to deepen your knowledge is by teaching others.
-
-
-      On this site, I'll be sharing detailed tutorials and insights on the software and tools I use, helping you harness the full potential of today's tech landscape.
+      I'd like for this site to help others.
 
   socialIcons:
     - name: github
@@ -29,6 +24,6 @@ menu:
       url: /
       weight: 10
     - identifier: posts
-      name: Blog
+      name: Posts
       url: /posts/
       weight: 20
