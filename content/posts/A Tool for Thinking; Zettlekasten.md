@@ -1,7 +1,6 @@
 +++
 title = 'A Tool for Thinking; Zettlekasten'
 date = 2024-08-17T21:51:44-06:00
-draft = false
 +++
 
 A major differentiator between Zettlekasten and traditional note-taking is the how you create the note.
