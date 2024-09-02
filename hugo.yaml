@@ -37,7 +37,7 @@
 #       url: /posts/
 #       weight: 20
 # baseURL: 'https://zenzilla94.github.io/mikeshandbook/'
-baseURL: ''
+baseURL: https://zenzilla94.github.io/mikeshandbook/
 title: Mike's Handbook
 paginate: 5
 theme: PaperMod
