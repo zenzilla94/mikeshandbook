@@ -1,42 +1,3 @@
-# languageCode: en-us
-# title: Mike's Handbook
-# theme: PaperMod
-# contentDir: content/posts
-# params:
-#   homeInfoParams:
-#     Title: 'Hey, I’m Mike 👋'
-#     Content: |
-#       Here's a few things you should know about me:
-#
-#         1. I have spent the past two years diving into the world of technology,
-#       primarily learning Linux, self-hosting and Python.
-#
-#         2. I have no mentor within the tech space, so everything I've learned has
-#       been self-taught.
-#
-#         3. I want to help others on their journeys into open source by explaining
-#       the concepts I've learned and providing tutorials on software I use most
-#       often.
-#
-#       If you are interested in learning about these subjects yourself,
-#       you may find my blog helpful.
-#   socialIcons:
-#     - name: github
-#       url: https://github.com/zenzilla94
-# mainSections:
-#   - posts
-#   - blog
-# menu:
-#   main:
-#     - identifier: home
-#       name: Home
-#       url: /
-#       weight: 10
-#     - identifier: posts
-#       name: Blog
-#       url: /posts/
-#       weight: 20
-# baseURL: 'https://zenzilla94.github.io/mikeshandbook/'
 baseURL: https://zenzilla94.github.io/
 title: Mike's Handbook
 paginate: 5
@@ -102,7 +63,7 @@ params:
         url: tags
   # home-info mode
   homeInfoParams:
-    Title: 'Hey, I’m Mike 👋'
+    Title: "Hi. Welcome to Mike's Handbook"
     Content: |
       Here's a few things you should know about me:
 
@@ -119,19 +80,8 @@ params:
       If you are interested in learning about these subjects,
       you may find my blog helpful.
   socialIcons:
-    - name: x
-      url: 'https://x.com/'
-    - name: stackoverflow
-      url: 'https://stackoverflow.com'
     - name: github
-      url: 'https://github.com/'
-  analytics:
-    google:
-      SiteVerificationTag: 'XYZabc'
-    bing:
-      SiteVerificationTag: 'XYZabc'
-    yandex:
-      SiteVerificationTag: 'XYZabc'
+      url: 'https://github.com/zenzilla94'
   cover:
     hidden: true # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
@@ -153,20 +103,16 @@ params:
     keys: ['title', 'permalink', 'summary', 'content']
 menu:
   main:
+    - name: blog
+      url: /posts/
+      weight: 10
     - identifier: categories
       name: categories
       url: /categories/
-      weight: 10
-    - name: posts
-      url: /posts/
-      weight: 10
+      weight: 20
     - identifier: tags
       name: tags
       url: /tags/
-      weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
